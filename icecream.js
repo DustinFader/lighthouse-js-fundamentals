@@ -1,0 +1,12 @@
+// Do not modify these first two lines
+const iceCreamFlavours = ["chocolate", "vanilla", "cookies and cream", "rocky road", "strawberry"];
+console.log(iceCreamFlavours);
+
+// Your code below here...
+let newIceCreamFlavors = iceCreamFlavours;
+newIceCreamFlavors.push("root beer");
+
+console.log(newIceCreamFlavors);
+console.log(newIceCreamFlavors[0]);
+console.log(newIceCreamFlavors[newIceCreamFlavors.length - 1]);
+console.log(newIceCreamFlavors.length);
